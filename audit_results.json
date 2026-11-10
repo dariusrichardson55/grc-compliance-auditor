@@ -1,0 +1,17 @@
+[
+    {
+        "control": "NIST_AC-2_Account_Management",
+        "status": "FAIL",
+        "remediation": "\"Restrict write access to root user only using 'chmod 644 /etc/passwd'.\""
+    },
+    {
+        "control": "NIST_IA-5_Password_Policy",
+        "status": "PASS",
+        "remediation": "\"Update security_policy.conf to enforce a minimum password length of 14 characters.\""
+    },
+    {
+        "control": "CIS_1.1_S3_Encryption",
+        "status": "FAIL",
+        "remediation": "\"Enable default AES-256 encryption on all active S3 buckets.\""
+    }
+]
